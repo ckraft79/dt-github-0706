@@ -20,9 +20,9 @@ jobs:
           git fetch --prune --unshallow
 
       - name: GitHub Action for WP Engine Git Deployment
-        uses: /Docker
+        uses: "jovrtn/github-action-wpengine-git-deploy@master"
         env:
-          LOCAL_BRANCH: main
+          LOCAL_BRANCH: 'main'
           WPENGINE_ENVIRONMENT_NAME: ${{ secrets.WPE_ENV_NAME }}
           WPENGINE_SSH_KEY_PRIVATE: ${{ secrets.WPE_PRIV_KEY }}
           WPENGINE_SSH_KEY_PUBLIC: ${{ secrets.WPE_PUB_KEY }}```
