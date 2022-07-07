@@ -122,8 +122,11 @@ Thumbs.db
 # track these folders, if they exist
 !wp-content/themes/*
 !wp-content/themes/genesis-block-theme/*
+!wp-content/plugins
+!wp-content/plugins/
 !wp-content/plugins/*
 !wp-content/plugins/genesis-blocks/*
+!wp-content/plugins/dt-test-plugin-main/*
 
 # track these files, if they exist
 !.editorconfig
