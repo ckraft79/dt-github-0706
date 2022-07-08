@@ -127,6 +127,7 @@ Thumbs.db
 !wp-content/plugins/*
 !wp-content/plugins/genesis-blocks/*
 !wp-content/plugins/dt-test-plugin-main/*
+!wp-content/plugins/dt-another-test-plugin-main/*
 
 # track these files, if they exist
 !.editorconfig
