@@ -51,7 +51,7 @@
 ~*
 
 # ignore these WP files
-*.php
+/*.php
 license.txt
 readme.html
 _wpeprivate
@@ -127,7 +127,7 @@ Thumbs.db
 !wp-content/plugins/*
 !wp-content/plugins/genesis-blocks/*
 !wp-content/plugins/dt-test-plugin-main/*
-!wp-content/plugins/dt-another-test-plugin-main/*
+!wp-content/plugins/dt-another-test-plugin/*
 
 # track these files, if they exist
 !.editorconfig
